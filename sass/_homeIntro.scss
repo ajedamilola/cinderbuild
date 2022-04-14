@@ -1,0 +1,31 @@
+.home-intro {
+  background-color: $dark;
+  background-image: url("../assets/img/bg1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  max-height: 400px;
+
+  .description {
+    color: #ccc;
+  }
+
+  img {
+    width: 50%;
+    border-radius: 1.5em;
+    transform: translateY(10%);
+    max-height: 430px;
+  }
+}
+@media (max-width:980px) {
+  .home-intro{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    max-height: max-content !important;
+  }
+  img{
+    transform: none !important;
+  }
+}

@@ -1,0 +1,42 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1000px,
+  xl: 1190px,
+  xxl: 1370px
+) !default;
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  auto:auto
+) !default;
+@font-face {
+    font-family: "open-sans";
+    src: url("../assets/fonts/OpenSansRegular.ttf");
+}
+@font-face {
+    font-family: "open-sans-bold";
+    src: url("../assets/fonts/OpenSansBold.ttf");
+}
+@import "../bootstrap_source/bootstrap";
+@import "navbar";
+@import "homeIntro";
+@import "bestDeals";
+@import "shopbrands";
+@import "cinderPeople";
+@import "testimonial";
+
+.navbar,.home-intro,.cinder-people{
+  button.btn{
+    font-size: small !important;
+}
+}
+
