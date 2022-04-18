@@ -1,2 +1,2 @@
 # cinderbuild
-Aje Damilola's Version of the [https://cinderbuild.com](CinderBuild) Home Page
+Aje Damilola's Version of the [Cinderbuild](https://cinderbuild.com) Home Page
