@@ -6,6 +6,7 @@
     "@reduxjs/toolkit": "^1.8.1",
     "color": "^4.2.3",
     "cra-template": "1.2.0",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "owl.carousel": "^2.3.4",
     "react": "^18.0.0",
@@ -15,15 +16,15 @@
     "react-router-dom": "^6.1.1",
     "react-scripts": "5.0.1"
   },
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-style": "sass sass:src/bootstrap --style=compressed --watch",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
-  "homepage":"https://ajedamilola.github.io/cinderbuild",
   "eslintConfig": {
     "extends": [
       "react-app",
