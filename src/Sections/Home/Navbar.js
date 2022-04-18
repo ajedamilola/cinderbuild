@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../bootstrap/js/src/collapse";
 import Icon from "../../Components/Icons";
 import logo from "../../assets/img/logo.svg";
 import { useEffect } from "react";
@@ -24,7 +23,7 @@ export default function Navbar() {
           data-bs-toggle="collapse"
           data-bs-target="#top-navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAA/ElEQVRoge2WO07DUBBF750Zh0gUREgRIlvweihJdgGiCVbYiVkTS4AGJH4NSoFT2ImfEUGiSYy4p3kf2W/uyB8dQAghhPjDMF3k+dng8SBu6Nk56ae0ABigOep5PZIOWLPPAJqR1uzzy/XJvN3z9uwfz9jUfyDjdnn0Mr8r8uU6c6QNPA2zBS0uvrl53+EB+gTml4P3cQXgap3ZOs/DYtrT8Jv69GzWidx9n7zqc/im/uf2BsLLnocHYGWaufMNHL+9Xj+PTkCLKeiTnoW/B6z8GB4WW39JQgixc+RCciG5UNqAXEguJIT4b8iF5EJyobQBuZBcSAghhPgVK+F7XFY1FwGfAAAAAElFTkSuQmCC" alt="" className="menu-icon"/>
         </button>
         <div
           className="collapse navbar-collapse justify-content-around"
@@ -38,7 +37,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item search-container">
-              <div className="input-group search flex-row">
+              <div className="input-group search flex-row d-none d-md-flex">
                 <label
                   htmlFor="nav-search"
                   className="input-group-text form-control bg-transparent border-0 d-inline"

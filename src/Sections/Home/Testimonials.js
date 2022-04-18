@@ -16,7 +16,7 @@ export default function Testimonials() {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <Testimonial author="Emmanuel AUstine"/>
+              <Testimonial author="Emmanuel Austine"/>
             </div>
             <div className="carousel-item">
               <Testimonial author="Cinder Build" color="purple"/>

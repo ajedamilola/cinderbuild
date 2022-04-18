@@ -1,43 +1,57 @@
-.navbar{
-    .nav-link{
-        font-weight: 600 !important;
-        font-size: .9em;
+.navbar {
+  &-toggler {
+    img {
+      width: 40px;
+      height: 40px;
     }
-    &-brand{
-        font-family: "open-sans";
-        font-weight: 900;
+    padding: 0.45rem;
+    border: 2px solid $primary !important;
+    border-radius: 1em !important;
+    &-hover {
+      outline: none !important;
     }
-    .btn{
-        font-size: .9rem !important;
-        font-weight: 600;
-        padding: .5em 1.2em;
-        color: white !important;
-        border-radius: 0.9em;
+  }
+  .nav-link {
+    font-weight: 600 !important;
+    font-size: 0.9em;
+  }
+  &-brand {
+    font-family: "open-sans";
+    font-weight: 900;
+  }
+  .btn {
+    font-size: 0.9rem !important;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    color: white !important;
+    border-radius: 0.9em;
+  }
+  .search {
+    width: 40vw;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 0.5rem;
+    box-shadow: inset #cacaca 0px 0px 6px 0px;
+    background-color: white;
+    flex-wrap: nowrap;
+    &-input {
+      border: 0px;
+      outline: none;
+      min-width: 90%;
+      min-height: 40px;
+      background-color: transparent;
     }
-    .search{
-        width: 40vw;
-        border: 1px solid rgb(194, 194, 194);
-        border-radius: 0.5rem;
-        box-shadow: inset #cacaca 0px 0px 6px 0px;
-        background-color: white;
-        flex-wrap: nowrap;
-        &-input{
-            border: 0px;
-            outline: none;
-            min-width: 90%;
-            min-height: 40px;
-            background-color: transparent;
-            
-        }
-    }
-    &-nav{
-        flex-basis:100%;
-    }
-   
-   
+  }
+  &-nav {
+    flex-basis: 100%;
+  }
 }
-.bordered{
-    border-bottom: 2px solid $primary !important;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+.bordered {
+  border-bottom: 2px solid $primary !important;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+@media (min-width: 1085px) {
+  .search {
+    width: 30vw !important;
+  }
 }

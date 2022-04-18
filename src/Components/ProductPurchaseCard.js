@@ -35,7 +35,7 @@ export default function ProductPurchaseCard({
             {name}
           </h4>
           <div className="row">
-            <div className="col-12 col-lg-7">
+            <div className="col-12 col-xl-7">
               {/* company Name and product price */}
               <a href="#" className="text-decoration-none">
                 {company}
@@ -50,7 +50,7 @@ export default function ProductPurchaseCard({
                   : ""}
               </b>
             </div>
-            <div className="col-12 col-lg-5">
+            <div className="col-12 col-xl-5">
               {/* location */}
               <div className="row justify-content-start">
                 <div className="col-3">

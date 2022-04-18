@@ -4,7 +4,7 @@ import App from "./App";
 import { Provider as StateManagementProvider } from "react-redux";
 import store from "./store";
 import "./bootstrap/bootstrap.css";
-import { BrowserRouter as Router,Route,Routes  } from "react-router-dom";
+import { HashRouter as Router,Route,Routes  } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

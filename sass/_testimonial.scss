@@ -12,3 +12,18 @@
     left:0;
     right:0;
 }
+.testimonial-box-container{
+    height: 430px;
+    min-height: fit-content;
+}
+@media (max-width:950px) {
+    .testimonial-box{
+        width: 80% !important;
+        margin: auto !important;
+        padding: 20px !important;
+        padding-bottom: 10% !important;
+    }
+    .testimonial-img{
+        top:120% !important;
+    }
+}

@@ -16,7 +16,7 @@ export default function Testimonial({
   }
 
   return (
-    <div className="text-center text-white w-100" style={{ minHeight: 400 }}>
+    <div className="text-center text-white testimonial-box-container">
       {/* Background Contents */}
       <>
         {" "}
