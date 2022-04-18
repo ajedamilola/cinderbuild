@@ -20,8 +20,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build-style": "sass sass:src/bootstrap --style=compressed --watch"
+    "build-style": "sass sass:src/bootstrap --style=compressed --watch",
+    "deploy":"gh-pages -d build"
   },
+  "homepage":"https://ajedamilola.github.io/cinderbuild",
   "eslintConfig": {
     "extends": [
       "react-app",
