@@ -132,7 +132,7 @@ export default function Testimonial({
       >
         {content}
         <img
-          src={image ? image : require("../../assets/img/logos/logo4.jpg")}
+          src={image ? image : require("../assets/img/logos/logo4.jpg")}
           className="testimonial-img position-absolute"
           alt=""
           style={{

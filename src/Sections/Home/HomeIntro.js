@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "./Icons";
+import Icon from "../../Components/Icons";
 import img from "../../assets/img/back-exteriorpng.png";
 import img2 from "../../assets/img/slideImage.png";
 

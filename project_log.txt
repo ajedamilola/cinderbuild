@@ -1,0 +1,4 @@
+Update The Project Heirachy Structure:
+    Rename That "Components" to "Section"
+    and Move the actual components to a folder call "Components"
+    Then Update the Code Written

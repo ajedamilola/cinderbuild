@@ -1,5 +1,5 @@
 import React from "react";
-import BrandImage from "./BrandImage";
+import BrandImage from "../../Components/BrandImage";
 
 export default function HomeBrands() {
   return (

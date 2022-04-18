@@ -1,5 +1,5 @@
 import React from "react";
-import IconList from "./IconList";
+import IconList from "../../Components/IconList";
 
 export default function CinderPoeple() {
   return (

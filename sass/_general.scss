@@ -1,0 +1,55 @@
+body {
+  background-color: #efefef;
+}
+.home-intro,
+.cinder-people {
+  button.btn {
+    font-size: 1em !important;
+    font-weight: 500;
+  }
+}
+h1,
+h2,
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+.btn-primary {
+  color: white !important;
+}
+.shop-brands,
+.cinder-people {
+  h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+    color: $dark !important;
+  }
+}
+body,
+h1,
+h2,
+h3,
+p,
+span,
+small {
+  font-smooth: always;
+}
+.img-scale {
+  img {
+    transition: all 1000ms ease-in-out;
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}
+.btn-outline-primary:hover {
+  color: white !important;
+}
+.hover-link,.navbar-nav>.nav-item>.nav-link {
+  transition: all 200ms ease-out;
+  &:hover {
+    font-size: 1.1rem !important;
+    font-weight: bold;
+  }
+}

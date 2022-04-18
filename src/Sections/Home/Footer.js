@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/img/logo.svg";
-import FooterLinks from "./FooterLinkGroup";
+import FooterLinks from "../../Components/FooterLinkGroup";
 
 export default function Footer() {
   return (

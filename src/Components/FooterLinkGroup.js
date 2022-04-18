@@ -14,7 +14,7 @@ export default function FooterLinks({
           index++;
           return (
             <li className="nav-item text-muted" key={index}>
-              <Link to={link.to} className="text-decoration-none text-muted" about={link.label}>{link.label}</Link>
+              <Link to={link.to} className="text-decoration-none text-muted hover-link" about={link.label}>{link.label}</Link>
             </li>
           );
         })}

@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "../../Components/ProductCard";
 
 export default function BestDealsIntro() {
   return (
@@ -46,7 +46,7 @@ export default function BestDealsIntro() {
         </div>
       </div>
       <div className="text-center py-4">
-        <a href="/" className="text-decoration-none">View All Categories</a>
+        <a href="/" className="text-decoration-none hover-link">View All Categories</a>
       </div>
     </div>
   );

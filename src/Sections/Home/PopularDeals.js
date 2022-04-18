@@ -1,6 +1,6 @@
 import React from "react";
-import Icon from "./Icons";
-import ProductPurchaseCard from "./ProductPurchaseCard";
+import Icon from "../../Components/Icons";
+import ProductPurchaseCard from "../../Components/ProductPurchaseCard";
 
 export default function PopularDeals() {
   const ProductCard = ProductPurchaseCard;

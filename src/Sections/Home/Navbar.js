@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../bootstrap/js/src/collapse";
-import Icon from "./Icons";
+import Icon from "../../Components/Icons";
 import logo from "../../assets/img/logo.svg";
 import { useEffect } from "react";
 export default function Navbar() {
