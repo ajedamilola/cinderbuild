@@ -1,30 +1,24 @@
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 1000px,
-  xl: 1190px,
-  xxl: 1370px
-) !default;
-
 // scss-docs-start spacer-variables-maps
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * 4.5,
-  auto:auto
+  auto: auto,
 ) !default;
+
+$primary: #3378f3;
 @font-face {
-    font-family: "open-sans";
-    src: url("../assets/fonts/OpenSansRegular.ttf");
+  font-family: "open-sans";
+  src: url("../assets/fonts/OpenSansRegular.ttf");
 }
 @font-face {
-    font-family: "open-sans-bold";
-    src: url("../assets/fonts/OpenSansBold.ttf");
+  font-family: "open-sans-bold";
+  src: url("../assets/fonts/OpenSansBold.ttf");
 }
 @import "../bootstrap_source/bootstrap";
 @import "navbar";
@@ -33,10 +27,48 @@ $spacers: (
 @import "shopbrands";
 @import "cinderPeople";
 @import "testimonial";
+@import "updates";
+@import "footer";
 
-.navbar,.home-intro,.cinder-people{
-  button.btn{
-    font-size: small !important;
+body{
+  background-color: #efefef;
 }
+.home-intro,
+.cinder-people {
+  button.btn {
+    font-size: 1em !important;
+    font-weight: 500;
+  }
 }
-
+h1,
+h2,
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+.btn-primary {
+  color: white !important;
+}
+.shop-brands,
+.cinder-people {
+  h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+    color:$dark !important;
+  }
+}
+body,h1,h2,h3,p,span,small{
+  font-smooth: always;
+}
+.img-scale{
+  img{
+    transition: all 1000ms ease-in-out;
+  }
+  img:hover{
+    scale: 1.1;
+  }
+}
+.btn-outline-primary:hover{
+  color: white !important;
+}

@@ -6,6 +6,8 @@
     "@reduxjs/toolkit": "^1.8.1",
     "color": "^4.2.3",
     "cra-template": "1.2.0",
+    "jquery": "^3.6.0",
+    "owl.carousel": "^2.3.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^7.2.8",

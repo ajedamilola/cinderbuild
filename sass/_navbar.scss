@@ -1,10 +1,18 @@
 .navbar{
     .nav-link{
-        font-weight: 500 !important;
+        font-weight: 600 !important;
+        font-size: .9em;
     }
     &-brand{
         font-family: "open-sans";
         font-weight: 900;
+    }
+    .btn{
+        font-size: .9rem !important;
+        font-weight: 600;
+        padding: .5em 1.2em;
+        color: white !important;
+        border-radius: 0.9em;
     }
     .search{
         width: 40vw;
@@ -26,4 +34,10 @@
         flex-basis:100%;
     }
    
+   
+}
+.bordered{
+    border-bottom: 2px solid $primary !important;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }

@@ -11,18 +11,18 @@ export default function ProductPurchaseCard({
 }) {
   const [liked, setLiked] = useState(false);
   return (
-    <div className="card h-100">
+    <div className="card h-100 img-scale">
       <div className="card-header text-end bg-white border-0">
         <button className="btn" onClick={() => setLiked(!liked)}>
           <Icon name="heart" color={liked ? "pink" : "black"} />
         </button>
       </div>
-      <div className="card-body py-0 my-0">
+      <div className="card-body py-0 my-0 d-flex justify-content-around align-content-around flex-column h-100">
         <img
           className="img card-img"
           src={image}
           alt={name}
-          style={{ height: "15rem" }}
+          style={{ width: "100%",margin:"1rem 0rem" }}
         />
         <div>
           <h4

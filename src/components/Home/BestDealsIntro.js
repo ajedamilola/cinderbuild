@@ -1,35 +1,48 @@
 import React from "react";
-import demoImage from "../../assets/img/bg1.jpeg";
 import ProductCard from "./ProductCard";
 
 export default function BestDealsIntro() {
   return (
-    <div className="container py-6 best-deals">
+    <div className="container py-6 best-deals img-scale">
       <div className="row">
         <div className="col-12 col-md-6">
-          <h2>We Offer You the best Deals</h2>
+          <h2 id="title1">We Offer You the best Deals</h2>
           <p>
-            Do consequat elit elit fugiat proident amet ad laborum id enim
-            proident. Labore laborum sunt sint consequat.
+          Over 1000+ products available from top brands that you trust, browse through products and start shopping
           </p>
         </div>
       </div>
       <div className="row gx-4 gy-5 py-3">
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={demoImage} name="Cement"/>
+          <ProductCard image={require("../../assets/img/cement.jpg")} name="Cement"/>
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={demoImage} name="Blocks"/>
+          <ProductCard image={require("../../assets/img/cables.jpg")} name="Blocks"/>
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={demoImage} name="Mortar"/>
+          <ProductCard image={require("../../assets/img/steelIron.jpg")} name="steel and iron"/>
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={demoImage} name="Iron"/>
+          <ProductCard image={require("../../assets/img/alluminium.jpg")} name="Iron"/>
+        </div>
+        <div className="col-lg-3 col-md-4 col-6">
+          <ProductCard image={require("../../assets/img/doors.jpg")} name="Cement"/>
+        </div>
+        {/* Single Product */}
+        <div className="col-lg-3 col-md-4 col-6">
+          <ProductCard image={require("../../assets/img/paint.jpg")} name="Blocks"/>
+        </div>
+        {/* Single Product */}
+        <div className="col-lg-3 col-md-4 col-6">
+          <ProductCard image={require("../../assets/img/tiles.jpg")} name="steel and iron"/>
+        </div>
+        {/* Single Product */}
+        <div className="col-lg-3 col-md-4 col-6">
+          <ProductCard image={require("../../assets/img/pipes.jpg")} name="Iron"/>
         </div>
       </div>
       <div className="text-center py-4">

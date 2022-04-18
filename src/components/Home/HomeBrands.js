@@ -8,40 +8,76 @@ export default function HomeBrands() {
         <h2>Shop By Brands</h2>
         <div className="row g-3 my-4">
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo1.png")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand1.png")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo2.png")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand2.png")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo3.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand3.jpg")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo4.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand4.jpg")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo5.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand6.jpg")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo6.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand7.png")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo7.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand8.png")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo8.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand9.jpg")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo9.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand10.jpg")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo10.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand1.png")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo5.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand2.png")}
+              dimensions={[180, 150]}
+            />
           </div>
           <div className="col-4 col-md-3 col-lg-2">
-            <BrandImage image={require("../../assets/img/logos/logo3.jpg")} dimensions={[180,150]} />
+            <BrandImage
+              image={require("../../assets/img/brand3.jpg")}
+              dimensions={[180, 150]}
+            />
           </div>
         </div>
       </div>

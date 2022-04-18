@@ -1,0 +1,35 @@
+@use "sass:color";
+.updates {
+  h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    letter-spacing: -2px;
+    color: $light !important;
+  }
+  .bg {
+    min-height: fit-content !important;
+    height: 350px !important;
+    background: linear-gradient(
+      180deg,
+      darken($primary, 10),
+      color.mix(lighten($primary, 25), rgb(5, 238, 168), 50%)
+    ) !important;
+    padding: 2em 3em;
+    border-top-left-radius: 1.4em;
+    border-bottom-left-radius: 1.4em;
+  }
+  input {
+    padding: 0.7em !important;
+  }
+  .btn {
+    padding: 0.5rem 20%;
+    font-size: 0.96em;
+    border-radius: 0.8em;
+  }
+  img {
+    width: 100%;
+    height: 350px !important;
+    border-top-right-radius: 1.4em;
+    border-bottom-right-radius: 1.4em;
+  }
+}
