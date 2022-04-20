@@ -4,7 +4,7 @@ export default function UpdatesSubscription() {
   return (
     <div className="my-5 updates">
       <div className="container">
-        <div class="row gx-0">
+        <div className="row gx-0">
           <div className="bg col-12 col-md-8 px-5 d-flex justify-content-end flex-column">
             <h1>
               Get updates

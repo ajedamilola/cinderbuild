@@ -34,8 +34,8 @@ $img-height: 500px;
     }
     .carousel,img {
       border-radius: 2em;
-      width: 450px !important;
       margin: auto;
+      width: 35vw;
     }
   }
 }
@@ -48,10 +48,11 @@ $img-height: 500px;
     padding-bottom: 20%;
     max-height: max-content !important;
   }
-  img {
-    transform: none !important;
-  }
   .title{
     font-size: 3.2em !important;
+  }
+  .carousel,img{
+    transform: none !important;
+    width: 48vw;
   }
 }

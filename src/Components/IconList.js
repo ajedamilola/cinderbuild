@@ -8,7 +8,7 @@ export default function IconList({
 }) {
   const renderItems = items.map((item) => {
     return (
-      <div className="row justify-content-start py-0 align-items-center">
+      <div className="row justify-content-start py-0 align-items-center" key={item.title} >
         <div className="col-1 flex-grow-0">
           <Icon name={item.icon} color={item.iconColor} size={item.iconSize} />
         </div>
