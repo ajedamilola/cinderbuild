@@ -21,12 +21,16 @@
         }
     }
     .product-image{
-        height: 13em;
+        height: 10rem;
         margin: auto;
     }
     .product-name{
         font-size: 0.8rem;
         font-weight: bold;
-
+    }
+}
+@media (max-width:1000px) {
+    .product-image{
+        height: 6.5rem !important;
     }
 }
