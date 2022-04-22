@@ -7,7 +7,7 @@ export default function TrustBrands() {
       <div className="container">
         <h2>Trusted By Top Brands</h2>
         <div
-          className="carousel slide"
+          className="carousel slide w-100 mx-auto"
           data-bs-ride="carousel"
           data-bs-interval="2500"
           id="trusted-brands-slider"
@@ -17,32 +17,32 @@ export default function TrustBrands() {
             {/**Slider Item */}
             <div className="carousel-item active">
               <div className="py-5 row gy-3">
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo4.jpg")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo2.png")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo5.jpg")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo6.jpg")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
                   />
@@ -53,32 +53,32 @@ export default function TrustBrands() {
             {/**Slider Item */}
             <div className="carousel-item">
               <div className="py-5 row gy-3">
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo4.jpg")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo2.png")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo5.jpg")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo6.jpg")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
                   />
                 </div>
-                <div className="col-4 col-md-2">
+                <div className="col-6 col-sm-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
                   />

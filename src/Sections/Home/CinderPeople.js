@@ -46,7 +46,7 @@ export default function CinderPoeple() {
           <div className="col-12 col-md-6 text-center text-md-end order-0 order-md-1">
             <img
               src={require("../../assets/img/phone2.png")}
-              className="img-fluid"
+              className="img-fluid phone-img"
               alt="cinder buyers"
             />
           </div>
@@ -57,7 +57,7 @@ export default function CinderPoeple() {
           <div className="col-12 col-md-6 text-center text-md-start">
             <img
               src={require("../../assets/img/phone.png")}
-              className="img-fluid"
+              className="img-fluid phone-img"
               alt="cinder buyers"
             />
           </div>

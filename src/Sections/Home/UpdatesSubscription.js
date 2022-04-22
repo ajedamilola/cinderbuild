@@ -5,7 +5,7 @@ export default function UpdatesSubscription() {
     <div className="my-5 updates">
       <div className="container">
         <div className="row gx-0">
-          <div className="bg col-12 col-md-8 px-5 d-flex justify-content-end flex-column">
+          <div className="bg col-12 col-md-8 px-2 px-md-3 px-lg-5 d-flex justify-content-end flex-column">
             <h1>
               Get updates
               <br /> on our latest deals

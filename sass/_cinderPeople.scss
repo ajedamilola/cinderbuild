@@ -1,11 +1,21 @@
-.cinder-people{
-    .description {
-        color: rgb(150, 150, 150) !important;
-        font-family: "roboto";
-        font-size: .9em;
-        padding: 1rem 0rem;
-    }
-    .img-fluid{
-        height: 25rem;
-    }
+.cinder-people {
+  .description {
+    color: rgb(150, 150, 150) !important;
+    font-family: "roboto";
+    font-size: 0.9em;
+    padding: 1rem 0rem;
+  }
+  .img-fluid {
+    height: 25rem;
+  }
+}
+@media (max-width: 900px) {
+  .img-fluid {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .img-fluid {
+    width: 100%;
+  }
 }

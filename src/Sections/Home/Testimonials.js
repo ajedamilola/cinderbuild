@@ -8,7 +8,7 @@ export default function Testimonials() {
       <br />
       <div className="testimonials">
         <div
-          className="carousel slide h-auto"
+          className="carousel slide h-auto w-100 mx-auto"
           data-bs-ride="carousel"
           data-bs-interval="2000"
           data-bs-pause="none"

@@ -93,25 +93,25 @@ export default function PopularDeals() {
             <div className="col-lg-3 col-md-4 col-6">
                 <div className="d-flex flex-row">
                     <Icon name="check-circle" size={24}  color="gray"/>
-                    <span className="ms-3">Quality Products</span>
+                    <span className="ms-1 ms-md-3">Quality Products</span>
                 </div>
             </div>
             <div className="col-lg-3 col-md-4 col-6">
                 <div className="d-flex flex-row">
                     <Icon name="money-bill-alt" size={24}  color="gray"/>
-                    <span className="ms-3">Low Price guarantee</span>
+                    <span className="ms-1 ms-md-3">Low Price guarantee</span>
                 </div>
             </div>
             <div className="col-lg-3 col-md-4 col-6">
                 <div className="d-flex flex-row">
                     <Icon name="handshake" size={24}  color="gray"/>
-                    <span className="ms-3">Low Interest Financing</span>
+                    <span className="ms-1 ms-md-3">Low Interest Financing</span>
                 </div>
             </div>
             <div className="col-lg-3 col-md-4 col-6">
                 <div className="d-flex flex-row">
                     <Icon name="truck" size={24}  color="gray"/>
-                    <span className="ms-3">Fast Delivery</span>
+                    <span className="ms-1 ms-md-3">Fast Delivery</span>
                 </div>
             </div>
         </div>

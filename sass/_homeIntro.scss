@@ -56,3 +56,9 @@ $img-height: 500px;
     width: 48vw;
   }
 }
+
+@media (max-width:600px) {
+  .title{
+    font-size: 2.9em !important;
+  }
+}
