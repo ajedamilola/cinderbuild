@@ -16,35 +16,41 @@ export default function TrustBrands() {
 
             {/**Slider Item */}
             <div className="carousel-item active">
-              <div className="py-5 row gy-3">
-                <div className="col-6 col-sm-4 col-md-2">
+              <div className="py-5 row justify-content-center align-items-center px-4 gy-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo4.jpg")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo2.png")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo5.jpg")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo6.jpg")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
+                    dimensions={[150,100]}
                   />
                 </div>
               </div>
@@ -52,35 +58,41 @@ export default function TrustBrands() {
 
             {/**Slider Item */}
             <div className="carousel-item">
-              <div className="py-5 row gy-3">
-                <div className="col-6 col-sm-4 col-md-2">
+              <div className="py-5 row justify-content-center align-items-center px-4 gy-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo4.jpg")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo2.png")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo5.jpg")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo6.jpg")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
+                    dimensions={[150,100]}
                   />
                 </div>
-                <div className="col-6 col-sm-4 col-md-2">
+                <div className="col-4 col-md-2">
                   <BrandImage
                     image={require("../../assets/img/logos/logo1.png")}
+                    dimensions={[150,100]}
                   />
                 </div>
               </div>

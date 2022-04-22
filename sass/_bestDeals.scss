@@ -29,8 +29,13 @@
         font-weight: bold;
     }
 }
-@media (max-width:1000px) {
+@media (max-width:900px) {
     .product-image{
-        height: 7rem !important;
+        height: 8rem !important;
+    }
+}
+@media (max-width:350px) {
+    .product-image{
+        height: 5rem !important;
     }
 }

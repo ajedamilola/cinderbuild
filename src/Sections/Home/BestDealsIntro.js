@@ -19,7 +19,7 @@ export default function BestDealsIntro() {
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={require("../../assets/img/cables.jpg")} name="Blocks"/>
+          <ProductCard image={require("../../assets/img/cables.jpg")} name="Cables"/>
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
@@ -27,22 +27,22 @@ export default function BestDealsIntro() {
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={require("../../assets/img/alluminium.jpg")} name="Iron"/>
+          <ProductCard image={require("../../assets/img/alluminium.jpg")} name="Alluminium ans Roofing"/>
         </div>
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={require("../../assets/img/doors.jpg")} name="Cement"/>
-        </div>
-        {/* Single Product */}
-        <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={require("../../assets/img/paint.jpg")} name="Blocks"/>
+          <ProductCard image={require("../../assets/img/doors.jpg")} name="Doors And Accessories"/>
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={require("../../assets/img/tiles.jpg")} name="steel and iron"/>
+          <ProductCard image={require("../../assets/img/paint.jpg")} name="Paint and Chemicals"/>
         </div>
         {/* Single Product */}
         <div className="col-lg-3 col-md-4 col-6">
-          <ProductCard image={require("../../assets/img/pipes.jpg")} name="Iron"/>
+          <ProductCard image={require("../../assets/img/tiles.jpg")} name="Flooring & Tiling"/>
+        </div>
+        {/* Single Product */}
+        <div className="col-lg-3 col-md-4 col-6">
+          <ProductCard image={require("../../assets/img/pipes.jpg")} name="Plumbing Materials"/>
         </div>
       </div>
       <div className="text-center py-4">

@@ -12,10 +12,12 @@
 @media (max-width: 900px) {
   .img-fluid {
     width: 80%;
+    height: 80vh !important;
   }
 }
 @media (max-width: 500px) {
   .img-fluid {
+    height: 67vh !important;
     width: 100%;
   }
 }

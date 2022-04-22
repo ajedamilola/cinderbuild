@@ -11,7 +11,7 @@ export default function HomeIntro() {
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-6 order-1 order-md-0 ">
               <h1 className="title">
-                <strong style={{ fontWeight: 900 }}>
+                <strong>
                   Africa’s Building Materials Marketplace
                 </strong>
               </h1>
@@ -20,7 +20,7 @@ export default function HomeIntro() {
                 collaborative platform streamlining the materials procurement
                 process from requisition to delivery.
               </p>
-              <button className="btn btn-primary btn-lg px-5 py-3">
+              <button className="btn btn-primary btn-lg">
                 Get Started <Icon name="arrow-right" color="white" />
               </button>
             </div>

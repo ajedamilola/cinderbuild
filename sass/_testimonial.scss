@@ -27,3 +27,9 @@
         top:120% !important;
     }
 }
+
+@media (max-width:300px) {
+    .testimonial-box-container{
+        height: 500px !important;
+    }
+}
