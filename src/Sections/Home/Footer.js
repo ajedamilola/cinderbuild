@@ -15,7 +15,7 @@ export default function Footer() {
               Africa's Building materials' Marketplace
             </p>
           </div>
-          <div className="col-md-8 row col-12 justify-content-evely">
+          <div className="col-md-8 row col-12 justify-content-evely accordion-flush" id="footer-accordion">
             <div className="col-md-3 col-6">
               <FooterLinks
                 title="Company"

@@ -25,10 +25,10 @@ export default function Testimonials() {
               <Testimonial author="Aje Damilola" color="#2222dd"/>
             </div>
           </div>
-          <button className="carousel-control-prev" data-bs-target="#testimony-slider" data-bs-slide="prev" style={{zIndex:"999999"}}>
+          <button className="carousel-control-prev" data-bs-target="#testimony-slider" data-bs-slide="prev" style={{zIndex:"1"}}>
             <span className="carousel-control-prev-icon p-3 bg-primary rounded-circle"></span>
           </button>
-          <button className="carousel-control-next" data-bs-target="#testimony-slider" data-bs-slide="next" style={{zIndex:"999999"}}>
+          <button className="carousel-control-next" data-bs-target="#testimony-slider" data-bs-slide="next" style={{zIndex:"1"}}>
             <span className="carousel-control-next-icon p-3 bg-primary rounded-circle"></span>
           </button>
         </div>

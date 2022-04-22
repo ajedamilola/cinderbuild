@@ -38,6 +38,9 @@ $img-height: 500px;
       width: 35vw;
     }
   }
+  .btn{
+    padding: .9em 1.7em !important;
+  }
 }
 .intro-container{
   overflow-x: hidden;
@@ -54,6 +57,9 @@ $img-height: 500px;
   .carousel,img{
     transform: none !important;
     width: 48vw;
+  }
+  .btn{
+    padding: .6em 1.5em !important;
   }
 }
 
